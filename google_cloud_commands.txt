@@ -1,0 +1,26 @@
+sudo apt-get update -y / sudo apt-get update
+## This command will update the list of all the available software packages metadata on the system. It does not install or update any 
+## application yet.
+
+sudo apt-get install python3-disutils
+sudo apt-get install python-apt
+## The above two commands are used to install python3 in our virtual machine.
+
+sudo apt-get install wget
+wget https://bootstrap.pypa.io/get-pip.py
+## These two commands are used to install the pip command. In python pip is used to install packages which are already present on the pypi 
+## repository. 
+
+## As we are using the updated version of the Debian/Ubuntu software, we will need to install pip inside of a virtual environment, first we
+## will install the virtual environment package which will let us create virtual environment in our virtual machine.
+
+sudo apt install python3.11-venv 
+## This command will help us install the virtual environment package and after this we will create our virtual environment.
+## Now that we have our packages ready, we will create our virtual environment.
+
+ python3.11 -m venv uberdedata
+ ## This command helps us to create a virtual environment folder named 'uberdedata' inside our virtual machine.
+
+source uberdedata/bin/activate
+ ## To use this environment, we will use this command.
+
