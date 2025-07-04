@@ -24,3 +24,23 @@ sudo apt install python3.11-venv
 source uberdedata/bin/activate
  ## To use this environment, we will use this command.
 
+ ## inside the virtual environment, we will install python and pip again.
+
+ python get-pip.py 
+ ## Using this command we will install pip inside our virtual environment. 
+
+pip --version
+ ## Check pip version using this command to see if pip is installed properly.
+
+## After this we will install pandas in our virtual environment and then we will move forward with MAGE configuration.
+
+pip3 install pandas
+## To install pandas in uberdedata.
+
+## Now we will install MAGE on our machine.
+
+pip3 install mage-ai
+## Use this command to install MAGE on your virtual machine inside the virtual environment.
+
+mage start uberdeproject
+## This code helps us to start a new project named uberdeproject on localhost. 
