@@ -44,3 +44,9 @@ pip3 install mage-ai
 
 mage start uberdeproject
 ## This code helps us to start a new project named uberdeproject on localhost. 
+
+
+If I close my laptop or the session is disconnected run the following commands:
+source uberdedata/bin/activate   # activate your virtual environment
+cd uberdeproject                 # enter your project folder
+mage start uberdeproject --host 0.0.0.0
